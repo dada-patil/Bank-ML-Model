@@ -1,6 +1,6 @@
 # BankInsight Streamlit app
 
-This directory contains the Streamlit entrypoint and its model artifact.
+This repository contains the Streamlit entrypoint and its model artifact.
 
 ## Run locally
 
@@ -16,8 +16,7 @@ create an app with:
 
 - **Repository:** the GitHub repository containing this directory
 - **Branch:** the branch you pushed
-- **Main file path:** `joblib/LogisticModel.py` (or `LogisticModel.py` if this
-  directory is the repository root)
+- **Main file path:** `LogisticModel.py`
 
 The dependency file and `logistic_model.pkl` must remain alongside the app
 entrypoint. The model artifact was saved with scikit-learn 1.9.1 and pandas 3;
